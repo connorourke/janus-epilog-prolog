@@ -26,7 +26,7 @@ function executeScripts {
 
 }
 
-SCRIPTS_DIR="/sched/slurm-postjob/Epilog"
+SCRIPTS_DIR="/sched/slurm-prejob/Prolog"
 
 executeScripts
 
