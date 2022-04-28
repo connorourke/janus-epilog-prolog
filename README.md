@@ -25,3 +25,7 @@ That table in the slurmdb needs to be set-up for this to work - the script `setu
 
 You will need to insert the correct authentication information in `get_db_connection()` in both 
 `setup_eviction_table_in_db.py` and `catch-eviction.py`.
+
+You will also need to install daemon and mysql.connector:
+
+`pip3 install mysql-connector-python python-daemon`
